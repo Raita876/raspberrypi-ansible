@@ -1,0 +1,5 @@
+---
+- hosts: pi
+  remote_user: pi
+  roles:
+    - init
