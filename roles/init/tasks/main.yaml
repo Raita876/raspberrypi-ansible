@@ -22,7 +22,7 @@
 - name: copy vim setting file
   copy:
     src: "{{ item }}"
-    dest: /home/pi/
+    dest: ~/
     mode: 0755
   with_items:
     - ../files/vim/.vimrc
