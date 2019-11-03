@@ -3,3 +3,4 @@
   remote_user: pi
   roles:
     - init
+    - pyenv
